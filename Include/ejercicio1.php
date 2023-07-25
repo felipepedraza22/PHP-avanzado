@@ -9,40 +9,33 @@
 <body>
     <hr>
     <h1>Welcome to my home page!</h1>
-<p>Some text.</p>
-<p>Some more text.</p>
-<?php include 'footer.php';?>
-<hr>
+    <p>Some text.</p>
+    <p>Some more text.</p>
+    <?php include 'footer.php';?>
+    <hr>
 
+    <hr>
+    <div class="menu">
+    <?php include 'menu.php';?>
+    </div>
+    <h1>Welcome to my home page!</h1>
+    <p>Some text.</p>
+    <p>Some more text.</p>  
+    <hr>
 
-<hr>
-<div class="menu">
-<?php include 'menu.php';?>
-</div>
+    <hr>
+    <h1>Welcome to my home page!</h1>
+    <?php include 'vars.php';
+    echo "I have a $color $car.";
+    ?>
+    <hr>
 
-<h1>Welcome to my home page!</h1>
-<p>Some text.</p>
-<p>Some more text.</p>
-<hr>
-
-<hr>
-<h1>Welcome to my home page!</h1>
-<?php include 'vars.php';
-echo "I have a $color $car.";
-?>
-<hr>
-
-<hr>
-<h1>Welcome to my home page!</h1>
-<?php require 'noFileExists.php';
-echo "I have a $color $car.";
-?>
-<hr>
-
-<hr>
-
-
-
+    <hr>
+    <h1>Welcome to my home page!</h1>
+    <?php include 'noFileExists.php';
+    echo "I have a $color $car.";
+    ?>
+    <hr>
 </body>
 </html>
     
